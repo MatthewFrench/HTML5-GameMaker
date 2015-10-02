@@ -1,0 +1,44 @@
+HTML5 GameMaker Help Documentation:
+
+The HTML5 GameMaker is an online game maker with the sole purpose of allowing you to make online HTML5 games in a faster and easier manner.
+Copyright to the Game Maker's Garage. Created by programmer Matthew French(AKA Gan).
+
+Syntax:
+If-Statement:
+If 1 = 1 Then
+	//Do Stuff
+End If
+
+For loop:
+For i = 1 to 5
+	//Do stuff involving i
+Next
+
+While loop:
+while 1 = 1
+	//Do stuff
+next
+
+Declaring variables:
+var myNum = 2;
+var myString = "cow";
+
+General Methods:
+Game Open - Gets called when the game opens. This is where you load media.
+Key Down - Gets called when a key is pressed down.
+Key Up - Gets called when a key is released.
+Mouse Down - Gets called when the mouse clicks.
+Mouse Up - Gets called when the mouse is released.
+Mouse Move - Gets called when the mouse moves.
+Game Close - Gets called when the application closes.
+
+Methods:
+Custom methods can be created that are callable.
+
+Classes:
+The main class contains the General Methods.
+Custom classes can contain methods that can be called by CustomClass.CustomMethod().
+Custom objects can be created from custom classes: 
+spaceship = new SpaceShip();
+Global variables of custom objects can be set by:
+this.shield = 50;

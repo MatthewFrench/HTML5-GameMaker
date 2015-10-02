@@ -1,0 +1,110 @@
+ Abs(num)
+Returns the absolute value of the number--If the number is negative, it turns positive.
+|Arccos(num)
+Returns the arccos of the number.
+|Arcsin(num)
+Returns the arcsin of the number.
+|Arctan(num)
+Returns the arctan of the number.
+|Arctan2(y,x)
+Returns the angle of arctan2 of the y and x.
+|Ceil(num)
+Raises the number to the whole number. 10.5 -> 11
+|Cos(num)
+Returns the cos of the angle.
+|Sin(num)
+Returns the sin of the angle.
+|Tan(num)
+Returns the tab of the angle.
+|Floor(num)
+Lowers the number to the whole number. 10.5 -> 10
+|Pi()
+Returns PI. 3.14...
+|Random(num1,num2)
+Retrieves a random number between num1 and num2
+|Round(num)
+Rounds the number to the nearest whole number.
+|Sqrt(num)
+Returns the square root of the number.
+|Pow(base, exponent)
+Multiples the base by itself for the number of exponent specified.
+|Distance(x1,y1,x2,y2)
+Gets the distance between the two points.
+|KeyIsPressedByChar(char)
+Returns TRUE or FALSE depending if the symbol is pressed. KeyIsPressed("a") would return TRUE if a is pressed.
+|KeyIsPressed(keycode)
+Returns TRUE or FALSE depending if the keycode of a symbol is pressed. KeyIsPressed(32) would return TRUE if the enter key is pressed.
+|Key()
+Returns the ascii value of the last pressed key.
+|MouseX()
+Returns the x position of the mouse.
+|MouseY()
+Returns the y position of the mouse.
+|MousePressed()
+Returns true or false if the mouse is pressed or not.
+|CreateTimer(name,method,interval)
+Creates a timer. Name is the identification, method is what the timer calls and interval is how often the timer fires in seconds.
+CreateTimer("myTimer", "myMethod()", 1.0)
+That would create a timer known as myTimer that calls the method, myMethod() every second.
+|StopTimer(name)
+Stops the timer.
+|StopAllTimers()
+Stops all running timers.
+|PlaySound(name)
+Plays the sound related to the name, loads the sound if not already loaded.
+|PlaySound(name,id,loop)
+Plays the sound related to the name, gives it an ID and specifies a loop. Loads if not already loaded.
+Giving the sound an ID allows you to stop the sound.
+|StopSound(id)
+Stops the sound related to the ID.
+|LoadImage(name)
+Loads the image related to the name.
+|LoadImageWithSource(name,source)
+Sets a new image with the name and source, then loads it.
+|DrawImage(name,x,y,rotation)
+Draws the specified image at x, y with the rotation.
+|ImageIsLoaded(name)
+Returns true or false stating if the image is loaded.
+|GetImageHeight(name)
+Returns the height of the image.
+|GetImageWidth(name)
+Returns the width of the image.
+|SetImageDrawOrigin(x,y)
+This sets the origin of the image to draw. By default it is 0.5,0.5. Or in other words, draws an image at the center point. Setting to 0,0 will draw the image at the top left corner. Setting 1.0,1.0 will draw the image at the bottom right corner.
+|GetImageSource(name)
+Gets the source of the image related to the name.
+|GetImageData(name)
+Gets the raw image data that can be manipulated using javascript code for html5 canvas image data.
+|DrawLine(x1,y1,x2,y2)
+Draws a line from the first point to the second.
+|DrawOval(x,y,width,height)
+Draws an oval at the point with the specified width and height.
+|FillOval(x,y,width,height)
+Fills an oval at the point with the specified width and height.
+|DrawPixel(x,y)
+Draws a single pixel at the specified coordinate with the fill color.
+Manipulating pixels isn't very fast. I'm working on increasing performance.
+|DrawRect(x,y,width,height)
+Draws a rectange at x,y with width and height.
+|FillRect(x,y,width,height)
+Draws a filled rectangle at x and y with the width and the height.
+|SetStringAlign(align)
+Sets the alignment of the string. To position it horizontally to the draw position.
+|SetStringBaseline(baseline)
+Sets the baseline of the string. To position it vertically to the draw position.
+|DrawString(string, x, y)
+Draws the string at the specified x and y.
+|ClearScreen()
+Clears the screen to the default.
+|ClearSection(x,y,width,height)
+Clears part of the screen to default.
+|ScaleContext(x,y)
+Scales the whole screen and context.
+|RotateContext(rot)
+Rotates the whole screen and context.
+|TranslateContext(x,y)
+Moves the whole screen and context.
+|SetStrokeColor(color)
+Sets the color of the stroke.
+|SetFillColor(color)
+Sets the color of the fill.
